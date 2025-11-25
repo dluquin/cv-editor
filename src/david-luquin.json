@@ -1,0 +1,424 @@
+{
+    "datos_personales": {
+        "nombre_completo": "David Luquin Urtasun",
+        "email": "dluquin@gmail.com",
+        "movil": "+34 646 483 334",
+        "ciudad": "",
+        "pais": "España",
+        "linkedin": "https://www.linkedin.com/in/davidluquin",
+        "idiomas": [
+            {
+                "idioma": "Español",
+                "nivel": "Nativo"
+            },
+            {
+                "idioma": "Inglés",
+                "nivel": "Fluido C1"
+            },
+            {
+                "idioma": "Portugués",
+                "nivel": "Nativo"
+            },
+            {
+                "idioma": "Chino mandarín",
+                "nivel": "Belt 8"
+            },
+            {
+                "idioma": "Alemán",
+                "nivel": "Belt 5"
+            }
+        ]
+    },
+    "experiencia_profesional": [
+        {
+            "cargo": "Director de Sector Público España",
+            "empresa": "Inetum",
+            "periodo": {
+                "inicio": "2025",
+                "fin": "Actualidad"
+            },
+            "sector": "Tecnología / Sector público",
+            "tipo_empresa": "multinacional",
+            "pais": "España",
+            "responsabilidades_clave": [
+                "Desarrollo del negocio y la estrategia comercial en el sector público en España",
+                "Diseño e implementación de la propuesta de valor para administraciones públicas orientada a transformación digital y mejora de la experiencia del ciudadano",
+                "Gestión del ciclo completo de oportunidades: identificación de necesidades, diseño de soluciones, licitaciones y cierre",
+                "Coordinación transversal de equipos internos y colaboración con partners en identidad digital, automatización, servicios cloud, IA y datos",
+                "Representación institucional ante organismos públicos, asociaciones sectoriales y ecosistemas de innovación"
+            ],
+            "logros_destacados": []
+        },
+        {
+            "cargo": "Director de Sector Público, Salud y Fuerzas de Seguridad",
+            "empresa": "Veridas",
+            "periodo": {
+                "inicio": "2024",
+                "fin": "2025"
+            },
+            "sector": "Tecnología / Identidad digital",
+            "tipo_empresa": "scale-up tecnológica",
+            "pais": "España",
+            "responsabilidades_clave": [
+                "Definición y ejecución de la estrategia comercial para administración pública, fuerzas de seguridad y salud",
+                "Identificación y desarrollo de oportunidades de negocio alineadas con los objetivos de la empresa",
+                "Gestión de relaciones con entidades clave del sector público, fuerzas de seguridad y salud",
+                "Supervisión de propuestas comerciales, licitaciones y proyectos",
+                "Colaboración con I+D y tecnología para incorporar nuevas tendencias e impulsar la innovación en soluciones de verificación e identidad digital"
+            ],
+            "logros_destacados": []
+        },
+        {
+            "cargo": "Senior Manager para Sector Público y Universidad",
+            "empresa": "Oracle",
+            "periodo": {
+                "inicio": "2023",
+                "fin": "2024"
+            },
+            "sector": "Tecnología / Cloud",
+            "tipo_empresa": "multinacional",
+            "pais": "España",
+            "responsabilidades_clave": [
+                "Definición e implementación de la estrategia de ventas y marketing de Oracle Cloud en el sector público y universitario",
+                "Impulso del crecimiento de ingresos y cuota de mercado en administraciones públicas y universidades",
+                "Desarrollo de relaciones estratégicas con los principales decisores del sector público y universitario",
+                "Identificación y calificación de oportunidades de negocio en el ámbito público"
+            ],
+            "logros_destacados": []
+        },
+        {
+            "cargo": "Director General para el Avance Digital",
+            "empresa": "Gobierno de La Rioja",
+            "periodo": {
+                "inicio": "2022",
+                "fin": "2023"
+            },
+            "sector": "Administración pública / Transformación digital",
+            "tipo_empresa": "administración pública",
+            "pais": "España",
+            "responsabilidades_clave": [
+                "Responsable de la transformación digital del Gobierno de La Rioja",
+                "Equipar y mantener la infraestructura hardware y software on-premise y cloud de todo el Gobierno y sus entes, incluido el Servicio Riojano de Salud",
+                "Adquisición y mantenimiento de software externo e interno para todos los procesos de gestión y relación con ciudadanía y empresas",
+                "Diseño e implementación de la nueva relación administración-ciudadano basada en tecnologías RPA, IA, Data Lake y CRM",
+                "Dirección de un equipo de 300 personas y un presupuesto de 40 M€",
+                "Miembro del Consejo de Administración de ADER",
+                "Miembro del Consejo Riojano de I+D+i"
+            ],
+            "logros_destacados": []
+        },
+        {
+            "cargo": "Director General de Emprendimiento e Innovación",
+            "empresa": "Universidad de Navarra",
+            "periodo": {
+                "inicio": "2015",
+                "fin": "2022"
+            },
+            "sector": "Educación superior / Emprendimiento e innovación",
+            "tipo_empresa": "universidad",
+            "pais": "España",
+            "responsabilidades_clave": [
+                "Desarrollo del proyecto de emprendimiento y transferencia de tecnología de la Universidad de Navarra",
+                "Gestión de un fondo de venture capital de aproximadamente 9 M€ para proyectos de investigadores, alumnos y alumni",
+                "Lanzamiento de 9 spin-offs procedentes de grupos de investigación",
+                "Inversión en proyectos innovadores de investigadores y alumni",
+                "Liderazgo de Atelier by ISEM, primera aceleradora española que conecta startups de tecnología con empresas de retail",
+                "Lanzamiento del programa Adan, experiencia de innovación abierta en Big Data e IA entre startups y grandes empresas",
+                "Asesoramiento, mentoría y participación en advisory boards de numerosas startups y scale-ups",
+                "Miembro del board de Fashion Entrepreneurship 101: Building a Successful Brand (Miami)"
+            ],
+            "logros_destacados": [
+                "46 empresas aceleradas en las primeras 4 ediciones de Atelier by ISEM"
+            ]
+        },
+        {
+            "cargo": "CEO",
+            "empresa": "Tecnigral Brasil tecnologia e meioambiente",
+            "periodo": {
+                "inicio": "2013",
+                "fin": "2015"
+            },
+            "sector": "Tecnología / Medio ambiente",
+            "tipo_empresa": "pyme tecnológica",
+            "pais": "Brasil",
+            "responsabilidades_clave": [
+                "Dirección de la filial en São Paulo",
+                "Apertura de mercado y despliegue de proyectos de arborización urbana en todo Brasil",
+                "Implantación y posicionamiento del software GIS Arbomap para inventario y evaluación de arbolado urbano"
+            ],
+            "logros_destacados": []
+        },
+        {
+            "cargo": "CEO",
+            "empresa": "LUK Consultoría estratégica",
+            "periodo": {
+                "inicio": "2011",
+                "fin": "2015"
+            },
+            "sector": "Consultoría estratégica",
+            "tipo_empresa": "consultora",
+            "pais": "España",
+            "responsabilidades_clave": [
+                "Elaboración del plan estratégico de Innoliva (más de 8.000 Ha de olivares en España y Portugal)",
+                "Plan de internacionalización en Europa para bebidas vegetales de Grupo Pascual (Vivesoy)",
+                "Estrategia de internacionalización y puesta en mercado para Postres Reina/Postres Montero",
+                "Gestión de la venta de planta de envasado de zumo de naranja y transformación de otra planta para multinacionales españolas",
+                "Puesta en marcha del proyecto Chofert para Grupo La Información (Diario de Navarra), proyecto de couponing altamente rentable"
+            ],
+            "logros_destacados": []
+        },
+        {
+            "cargo": "Fundador / Socio",
+            "empresa": "Lorem Solutions",
+            "periodo": {
+                "inicio": "2010",
+                "fin": "2014"
+            },
+            "sector": "Tecnología / Desarrollo de software",
+            "tipo_empresa": "startup",
+            "pais": "España",
+            "responsabilidades_clave": [
+                "Fundación de empresa de desarrollo de apps móviles (iOS, Android, Blackberry) y web apps",
+                "Definición de principios organizativos",
+                "Implantación de metodologías ágiles (Lean, Scrum) en la organización"
+            ],
+            "logros_destacados": []
+        },
+        {
+            "cargo": "Fundador / CEO",
+            "empresa": "Medicis",
+            "periodo": {
+                "inicio": "2006",
+                "fin": "2014"
+            },
+            "sector": "Tecnología sanitaria / Diagnóstico por imagen",
+            "tipo_empresa": "startup",
+            "pais": "España",
+            "responsabilidades_clave": [
+                "Creación del primer centro privado de diagnóstico por imagen en Navarra",
+                "Contratación y dirección de un equipo de más de 10 personas",
+                "Compra e implantación de equipamiento de RM, TAC y ecografía",
+                "Desarrollo de una de las primeras herramientas de telediagnóstico implantadas en España"
+            ],
+            "logros_destacados": []
+        },
+        {
+            "cargo": "CEO",
+            "empresa": "Grupo Harol",
+            "periodo": {
+                "inicio": "2005",
+                "fin": "2006"
+            },
+            "sector": "Ingeniería / Protección contra incendios",
+            "tipo_empresa": "empresa participada por fondo de capital riesgo",
+            "pais": "España",
+            "responsabilidades_clave": [
+                "Dirección general de grupo resultante de la fusión de tres empresas de protección contra incendios",
+                "Gestión de la fusión desde el punto de vista cultural, de proyectos, comercial y de gestión",
+                "Saneamiento y orientación de la compañía hasta su venta a otra empresa del sector"
+            ],
+            "logros_destacados": []
+        },
+        {
+            "cargo": "Consultor",
+            "empresa": "Sendaviva (Sodena)",
+            "periodo": {
+                "inicio": "2004",
+                "fin": "2005"
+            },
+            "sector": "Ocio / Parque temático",
+            "tipo_empresa": "empresa participada por Sodena",
+            "pais": "España",
+            "responsabilidades_clave": [
+                "Diseño de la estrategia para recuperar visitantes en el parque Sendaviva (Arguedas, Navarra) tras cambios accionariales",
+                "Definición de posicionamiento y plan de crecimiento"
+            ],
+            "logros_destacados": []
+        },
+        {
+            "cargo": "Director General",
+            "empresa": "Miyabi (participada por Sodena y EHN)",
+            "periodo": {
+                "inicio": "2002",
+                "fin": "2004"
+            },
+            "sector": "Energías renovables / Espacios bioclimáticos",
+            "tipo_empresa": "empresa participada",
+            "pais": "España",
+            "responsabilidades_clave": [
+                "Reorientación de la empresa hacia espacios urbanos bioclimáticos",
+                "Contratación del equipo para la nueva estrategia",
+                "Gestión del cambio accionarial para la puesta en valor de la compañía"
+            ],
+            "logros_destacados": []
+        },
+        {
+            "cargo": "Director de Estrategia y Planificación del Control",
+            "empresa": "Tenaria",
+            "periodo": {
+                "inicio": "2001",
+                "fin": "2002"
+            },
+            "sector": "Telecomunicaciones / Cable",
+            "tipo_empresa": "operador local de cable",
+            "pais": "España",
+            "responsabilidades_clave": [
+                "Dirección de la estrategia y planificación del control del operador local de cable de Navarra y La Rioja",
+                "Soporte a la evolución del operador, posteriormente integrado en ONO"
+            ],
+            "logros_destacados": []
+        },
+        {
+            "cargo": "COO General Line Division",
+            "empresa": "Colep",
+            "periodo": {
+                "inicio": "1999",
+                "fin": "2001"
+            },
+            "sector": "Industria / Envases metálicos y aerosoles",
+            "tipo_empresa": "multinacional portuguesa",
+            "pais": "España / Portugal",
+            "responsabilidades_clave": [
+                "Fusión de los centros de producción de San Adrián y Calahorra en una nueva planta en San Adrián",
+                "Liderazgo de la implantación de SAP como ERP",
+                "Coordinación de producción, proveedores, suministros y atención al cliente",
+                "Participación en el comité de dirección en Portugal, liderando el nuevo plan estratégico y el Balanced Scorecard"
+            ],
+            "logros_destacados": []
+        },
+        {
+            "cargo": "COO",
+            "empresa": "Industrial Barranquesa",
+            "periodo": {
+                "inicio": "1997",
+                "fin": "1999"
+            },
+            "sector": "Industria / Componentes para energía eólica",
+            "tipo_empresa": "pyme industrial",
+            "pais": "España",
+            "responsabilidades_clave": [
+                "Rediseño del proceso productivo para fabricar bridas de gran formato para el sector eólico",
+                "Rediseño del layout, compra de maquinaria pesada y certificaciones de calidad exigentes",
+                "Orientación de la organización hacia los requisitos de clientes de alto nivel en energías renovables"
+            ],
+            "logros_destacados": []
+        },
+        {
+            "cargo": "Director Adjunto",
+            "empresa": "Iturralde y Sagüés, Ingenieros",
+            "periodo": {
+                "inicio": "1993",
+                "fin": "1997"
+            },
+            "sector": "Ingeniería industrial",
+            "tipo_empresa": "consultora de ingeniería",
+            "pais": "España",
+            "responsabilidades_clave": [
+                "Reorganización de la mayor consultora de ingeniería de proyectos de Navarra",
+                "Paso de organización por departamentos a organización por procesos",
+                "Gestión de finanzas, proveedores y clientes",
+                "Dirección de proyectos de organización industrial y reorganización de procesos para clientes"
+            ],
+            "logros_destacados": []
+        }
+    ],
+    "experiencia_consejos": [
+        {
+            "cargo_en_consejo": "Miembro del Consejo de Administración",
+            "tipo_de_consejo": "Consejo de administración",
+            "empresa": "ADER – Agencia de Desarrollo Económico de La Rioja",
+            "periodo": {
+                "inicio": "2022",
+                "fin": "2023"
+            },
+            "pais": "España",
+            "responsabilidades_clave": []
+        },
+        {
+            "cargo_en_consejo": "Miembro del Consejo Riojano de I+D+i",
+            "tipo_de_consejo": "Consejo de innovación y desarrollo",
+            "empresa": "Gobierno de La Rioja",
+            "periodo": {
+                "inicio": "2022",
+                "fin": "2023"
+            },
+            "pais": "España",
+            "responsabilidades_clave": []
+        }
+    ],
+    "experiencia_comisiones": [],
+    "experiencia_internacional": [
+        {
+            "region": "Europa",
+            "paises": [
+                "España",
+                "Portugal"
+            ]
+        },
+        {
+            "region": "América Latina",
+            "paises": [
+                "Brasil"
+            ]
+        }
+    ],
+    "materias_especializacion": [
+        "innovación",
+        "emprendimiento",
+        "transferencia tecnológica",
+        "venture capital",
+        "transformación digital",
+        "sector público",
+        "tecnología sanitaria",
+        "estrategia comercial",
+        "gestión de operaciones",
+        "fusiones y reorganización empresarial",
+        "aceleración de startups",
+        "big data",
+        "inteligencia artificial",
+        "desarrollo de negocio internacional",
+        "gobierno corporativo"
+    ],
+    "informacion_adicional": {
+        "publicaciones": [],
+        "conferencias": [],
+        "premios": [
+            "Premio AJE Iniciativa Empresarial (2010)",
+            "Premio ASTER al mejor emprendedor (2010)"
+        ],
+        "voluntariado": [
+            "Miembro de la Fundación y del Comité Permanente de Fundación Moderna (instrumento de planificación estratégica de Navarra)",
+            "Presidente de la Federación Navarra de Balonmano (1992–1994)"
+        ],
+        "formacion": [
+            {
+                "programa": "Ingeniería Industrial (Electrónica y Organización)",
+                "institucion": "Universidad de Navarra",
+                "pais": "España",
+                "ciudad": "Pamplona",
+                "tipo": "grado"
+            },
+            {
+                "programa": "PDG",
+                "institucion": "IESE Business School",
+                "pais": "España",
+                "ciudad": "",
+                "tipo": "programa_direccion"
+            },
+            {
+                "programa": "Programa \"De Directivo a Consejero\"",
+                "institucion": "IESE, KPMG y AED",
+                "pais": "España",
+                "ciudad": "",
+                "tipo": "programa_consejeros"
+            },
+            {
+                "programa": "American Fashion Business Program",
+                "institucion": "ISEM",
+                "pais": "España / Estados Unidos",
+                "ciudad": "",
+                "tipo": "programa_internacional"
+            }
+        ]
+    }
+}

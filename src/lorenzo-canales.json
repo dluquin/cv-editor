@@ -1,0 +1,377 @@
+{
+    "datos_personales": {
+        "nombre_completo": "Lorenzo Canales Molina",
+        "email": "lorenzocanalesmolina7@gmail.com",
+        "movil": "+34 659 102 910",
+        "ciudad": "",
+        "pais": "España",
+        "linkedin": "https://www.linkedin.com/in/lorenzocanalesceoboardmember/",
+        "idiomas": [
+            {
+                "idioma": "Español",
+                "nivel": "Nativo"
+            },
+            {
+                "idioma": "Catalán",
+                "nivel": "Nativo"
+            },
+            {
+                "idioma": "Inglés",
+                "nivel": "Alto (hablado y escrito)"
+            },
+            {
+                "idioma": "Francés",
+                "nivel": "Hablado alto, escrito medio"
+            }
+        ]
+    },
+    "experiencia_profesional": [
+        {
+            "cargo": "Consejero Independiente",
+            "empresa": "",
+            "periodo": {
+                "inicio": "2024",
+                "fin": "Actualidad"
+            },
+            "sector": "",
+            "tipo_empresa": "",
+            "pais": "",
+            "responsabilidades_clave": [
+                "Miembro de dos Consejos Asesores",
+                "Desarrollo de negocio internacional",
+                "Transformación digital",
+                "Adopción de IA"
+            ],
+            "logros_destacados": []
+        },
+        {
+            "cargo": "Socio y Miembro Comité de Dirección – CEO en Cataluña",
+            "empresa": "Hiberus Tecnología",
+            "periodo": {
+                "inicio": "2016",
+                "fin": "2024"
+            },
+            "sector": "Tecnología / Servicios digitales",
+            "tipo_empresa": "consultora tecnológica",
+            "pais": "España",
+            "responsabilidades_clave": [
+                "Puesta en marcha y dirección del negocio en Cataluña desde 2016",
+                "Responsable del área Microsoft del grupo",
+                "Apoyo al grupo en sector público y estrategia",
+                "Desarrollo de negocio y crecimiento organizativo"
+            ],
+            "logros_destacados": []
+        },
+        {
+            "cargo": "CEO – Interim",
+            "empresa": "Alma IT Systems",
+            "periodo": {
+                "inicio": "2015",
+                "fin": "2018"
+            },
+            "sector": "Tecnología / Software médico",
+            "tipo_empresa": "empresa tecnológica",
+            "pais": "España",
+            "responsabilidades_clave": [
+                "Reestructuración y profesionalización de la compañía",
+                "Creación de nuevas líneas de negocio",
+                "Dotación de recursos para el crecimiento"
+            ],
+            "logros_destacados": []
+        },
+        {
+            "cargo": "Fundador",
+            "empresa": "ITalent Hunters",
+            "periodo": {
+                "inicio": "2014",
+                "fin": "2018"
+            },
+            "sector": "Head Hunting / Tecnología",
+            "tipo_empresa": "startup",
+            "pais": "España",
+            "responsabilidades_clave": [
+                "Fundación de firma especializada en selección tecnológica",
+                "Desarrollo completo del negocio"
+            ],
+            "logros_destacados": [
+                "Venta de la actividad en 2018 a un cliente"
+            ]
+        },
+        {
+            "cargo": "Director General de Administraciones Públicas y Sanidad",
+            "empresa": "Indra",
+            "periodo": {
+                "inicio": "2011",
+                "fin": "2014"
+            },
+            "sector": "Tecnología / Consultoría / Sector Público",
+            "tipo_empresa": "multinacional",
+            "pais": "España",
+            "responsabilidades_clave": [
+                "Dirección mundial de la división de Administraciones Públicas y Sanidad",
+                "Responsabilidad sobre la cuenta de resultados (400M€) y 3.000 personas",
+                "Dirección estratégica y de operaciones",
+                "Generación y supervisión de soluciones: Justicia, Tributos, Administración Electrónica, Transporte, Educación, Smart City, Sanidad",
+                "Liderazgo de alianzas globales en el sector TI"
+            ],
+            "logros_destacados": [
+                "Crecimiento del CAC +21,7% (2011–2013)",
+                "Implantación de RRHH en ONU (USA)",
+                "Sistemas tributarios en México, Canarias, Cataluña, Navarra y Brasil",
+                "Sistemas judiciales en Ecuador y en múltiples Comunidades Autónomas españolas",
+                "Sistemas educativos en Valencia y Madrid",
+                "Proyectos sanitarios en Bahréin, Galicia, Andalucía, Valencia"
+            ]
+        },
+        {
+            "cargo": "Director Administraciones Públicas España",
+            "empresa": "Indra",
+            "periodo": {
+                "inicio": "2008",
+                "fin": "2011"
+            },
+            "sector": "Tecnología / Sector Público",
+            "tipo_empresa": "multinacional",
+            "pais": "España",
+            "responsabilidades_clave": [
+                "Dirección de operaciones y desarrollo de negocio en el sector público español",
+                "Supervisión general de proyectos y servicios"
+            ],
+            "logros_destacados": []
+        },
+        {
+            "cargo": "Director Administraciones Públicas Zona Norte y Este",
+            "empresa": "Indra",
+            "periodo": {
+                "inicio": "2007",
+                "fin": "2008"
+            },
+            "sector": "Tecnología",
+            "tipo_empresa": "multinacional",
+            "pais": "España",
+            "responsabilidades_clave": [
+                "Consolidación del territorio con alta rentabilidad",
+                "Liderazgo de la fusión Azertia–Soluziona"
+            ],
+            "logros_destacados": []
+        },
+        {
+            "cargo": "Gerente de Administraciones Públicas",
+            "empresa": "Indra",
+            "periodo": {
+                "inicio": "2003",
+                "fin": "2007"
+            },
+            "sector": "Tecnología / Sector Público",
+            "tipo_empresa": "multinacional",
+            "pais": "España",
+            "responsabilidades_clave": [
+                "Desarrollo de negocio en Cataluña, Valencia y Baleares",
+                "Creación de la unidad de conocimiento tributario"
+            ],
+            "logros_destacados": []
+        },
+        {
+            "cargo": "Gerente de Industria y Comercio",
+            "empresa": "Indra",
+            "periodo": {
+                "inicio": "2000",
+                "fin": "2003"
+            },
+            "sector": "Tecnología",
+            "tipo_empresa": "multinacional",
+            "pais": "España",
+            "responsabilidades_clave": [
+                "Dirección de la cuenta de Industria y Comercio",
+                "Crecimiento de resultados desde -120.000€ hasta 4,9M€"
+            ],
+            "logros_destacados": []
+        },
+        {
+            "cargo": "CIO",
+            "empresa": "Synthesia Española (Grupo BASF)",
+            "periodo": {
+                "inicio": "1997",
+                "fin": "2000"
+            },
+            "sector": "Industria química",
+            "tipo_empresa": "multinacional",
+            "pais": "España",
+            "responsabilidades_clave": [
+                "Dirección del área TIC",
+                "Implantación de SAP",
+                "Creación de Intranet y Extranet para España y Portugal"
+            ],
+            "logros_destacados": []
+        },
+        {
+            "cargo": "Delegado Regional",
+            "empresa": "Vmark Software Europe (IBM)",
+            "periodo": {
+                "inicio": "1994",
+                "fin": "1997"
+            },
+            "sector": "Software / Bases de datos / BI",
+            "tipo_empresa": "multinacional",
+            "pais": "España",
+            "responsabilidades_clave": [
+                "Gestión comercial regional",
+                "Crecimiento interanual del 85% en 1995–1997"
+            ],
+            "logros_destacados": []
+        },
+        {
+            "cargo": "Consultor de Organización y Logística",
+            "empresa": "IN2 – Grupo Siemens Nixdorf",
+            "periodo": {
+                "inicio": "1991",
+                "fin": "1994"
+            },
+            "sector": "Tecnología / ERP",
+            "tipo_empresa": "multinacional",
+            "pais": "España",
+            "responsabilidades_clave": [
+                "Implantación de ERP y procesos logísticos en clientes industriales"
+            ],
+            "logros_destacados": []
+        },
+        {
+            "cargo": "Ingeniero de Proyectos",
+            "empresa": "Maps Informática Industrial",
+            "periodo": {
+                "inicio": "1985",
+                "fin": "1991"
+            },
+            "sector": "Ingeniería / Control industrial",
+            "tipo_empresa": "pyme",
+            "pais": "España",
+            "responsabilidades_clave": [
+                "Proyectos de ingeniería de sistemas de control industrial",
+                "Trabajo a media jornada mientras cursaba estudios universitarios"
+            ],
+            "logros_destacados": []
+        }
+    ],
+    "experiencia_consejos": [
+        {
+            "cargo_en_consejo": "Consejero Independiente",
+            "tipo_de_consejo": "Consejo asesor y de administración",
+            "empresa": "",
+            "periodo": {
+                "inicio": "2024",
+                "fin": "Actualidad"
+            },
+            "pais": "España",
+            "responsabilidades_clave": []
+        },
+        {
+            "cargo_en_consejo": "Miembro del Consejo Asesor",
+            "tipo_de_consejo": "Consejo asesor",
+            "empresa": "",
+            "periodo": {
+                "inicio": "2024",
+                "fin": "Actualidad"
+            },
+            "pais": "España",
+            "responsabilidades_clave": []
+        }
+    ],
+    "experiencia_comisiones": [],
+    "experiencia_internacional": [
+        {
+            "region": "Europa",
+            "paises": [
+                "España",
+                "Reino Unido",
+                "Italia",
+                "Alemania",
+                "Francia"
+            ]
+        },
+        {
+            "region": "América Latina",
+            "paises": [
+                "México",
+                "Ecuador",
+                "Chile",
+                "Brasil"
+            ]
+        },
+        {
+            "region": "Oriente Medio",
+            "paises": [
+                "Bahrein"
+            ]
+        },
+        {
+            "region": "África",
+            "paises": [
+                "Argelia"
+            ]
+        },
+        {
+            "region": "Norteamérica",
+            "paises": [
+                "Estados Unidos (ONU, Nueva York)"
+            ]
+        }
+    ],
+    "materias_especializacion": [
+        "planificación estratégica",
+        "digitalización",
+        "ciberseguridad",
+        "desarrollo de negocio",
+        "big data",
+        "cloud",
+        "blockchain",
+        "inteligencia artificial",
+        "transformación digital",
+        "sector público",
+        "sanidad",
+        "industria",
+        "gobierno corporativo"
+    ],
+    "informacion_adicional": {
+        "publicaciones": [
+            "Entrevista en Revista Dintel (2010)"
+        ],
+        "conferencias": [],
+        "premios": [],
+        "voluntariado": [],
+        "formacion": [
+            {
+                "programa": "Programa de Consejeros",
+                "institucion": "IESE / KPMG / AED",
+                "pais": "España",
+                "ciudad": "",
+                "tipo": "programa_consejeros"
+            },
+            {
+                "programa": "MBA Internacional",
+                "institucion": "Universidad Ramón Llull – Manhattan College",
+                "pais": "",
+                "ciudad": "",
+                "tipo": "mba"
+            },
+            {
+                "programa": "Ingeniería de Telecomunicaciones",
+                "institucion": "Universidad Politécnica de Cataluña – La Salle",
+                "pais": "España",
+                "ciudad": "Barcelona",
+                "tipo": "ingenieria"
+            }
+        ],
+        "formacion_complementaria": [
+            "Curso de Gestión de Marketing Externo (Instituto de Empresa, 2002)",
+            "Curso de Gestión y Dirección de Proyectos (ICT, 2001)",
+            "Curso de Negociación y Contratación de Servicios Informáticos (Instituto de Empresa, 1997)",
+            "Postgrado de Logística (IQS, 1992)",
+            "Postgrado de Gestión de Operaciones (Universidad de Estrasburgo, 1992)",
+            "Curso de Gestión de Producción Asistida por Ordenador (Universidad de París, 1991)"
+        ],
+        "afiliaciones": [
+            "Miembro de AED",
+            "Miembro de Cercle d’Economia"
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+# CV Editor Web App Tasks
+
+- [x] Initialize project with Vite (React) <!-- id: 0 -->
+- [x] Create implementation plan <!-- id: 1 -->
+- [x] Implement basic UI structure <!-- id: 2 -->
+- [x] Create components for JSON sections <!-- id: 3 -->
+    - [x] Personal Data <!-- id: 4 -->
+    - [x] Professional Experience <!-- id: 5 -->
+    - [x] Board Experience <!-- id: 6 -->
+    - [x] International Experience <!-- id: 7 -->
+    - [x] Specialization <!-- id: 8 -->
+    - [x] Additional Info <!-- id: 9 -->
+- [x] Implement JSON export functionality <!-- id: 10 -->
+- [x] Apply styling and aesthetics <!-- id: 11 -->
+- [x] Verify functionality <!-- id: 12 -->
+- [x] Support multiple JSON profiles <!-- id: 13 -->
+- [x] Update date format (MM-YYYY) and layout <!-- id: 14 -->
+- [x] Clarify save/export workflow <!-- id: 15 -->
+- [x] Implement Tab navigation for sections <!-- id: 16 -->
+- [x] Improve aesthetics (Premium design) <!-- id: 17 -->
+- [x] Implement Date Picker with MM-YYYY format conversion <!-- id: 18 -->
+- [x] Fix empty tabs issue <!-- id: 19 -->
+- [x] Reduce vertical spacing <!-- id: 20 -->

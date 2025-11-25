@@ -1,0 +1,292 @@
+{
+    "datos_personales": {
+        "nombre_completo": "Luis Lopezbarrena Murillo",
+        "email": "lbarrena@outlook.com",
+        "movil": "+34 639 344 676",
+        "ciudad": "Barcelona",
+        "pais": "España",
+        "linkedin": "linkedin.com/in/luislopezbarrena",
+        "idiomas": [
+            {
+                "idioma": "Español",
+                "nivel": "Nativo"
+            },
+            {
+                "idioma": "Catalán",
+                "nivel": "Nativo"
+            },
+            {
+                "idioma": "Inglés",
+                "nivel": "Avanzado"
+            },
+            {
+                "idioma": "Francés",
+                "nivel": "Avanzado"
+            },
+            {
+                "idioma": "Italiano",
+                "nivel": "Básico"
+            }
+        ]
+    },
+    "experiencia_profesional": [
+        {
+            "cargo": "Director General Corporativo",
+            "empresa": "Top Cable",
+            "periodo": {
+                "inicio": "2020",
+                "fin": "2023-07"
+            },
+            "sector": "Industria / Fabricación de cables eléctricos",
+            "tipo_empresa": "empresa familiar",
+            "pais": "España",
+            "responsabilidades_clave": [
+                "Dirección corporativa en empresa familiar con más de 600 empleados y más de 500 millones de euros de facturación",
+                "Apoyo al proceso de profesionalización de la dirección",
+                "Supervisión estratégica de organización, procesos y equipos directivos"
+            ],
+            "logros_destacados": []
+        },
+        {
+            "cargo": "CEO",
+            "empresa": "Simon Holding",
+            "periodo": {
+                "inicio": "2014",
+                "fin": "2019"
+            },
+            "sector": "Industria / Material eléctrico e iluminación",
+            "tipo_empresa": "empresa familiar multinacional",
+            "pais": "España",
+            "responsabilidades_clave": [
+                "Dirección general del grupo empresarial de más de 4.000 empleados",
+                "Supervisión de estructura matricial con unidades de negocio, soporte y países",
+                "Desarrollo estratégico basado en eficiencia, innovación y diseño",
+                "Creación de la división de iluminación interior",
+                "Impulso del Smart Home y IoT, incluyendo la serie Simon 100",
+                "Desarrollo de nuevas capacidades técnicas y comerciales en el grupo"
+            ],
+            "logros_destacados": [
+                "Implementación de un proceso integral de eficiencia y rentabilidad",
+                "Obtención del Premio Nacional de Diseño y más de veinte premios de innovación y diseño",
+                "Integración de la iluminación LED en la oferta global del grupo"
+            ]
+        },
+        {
+            "cargo": "Director General",
+            "empresa": "Simon SA",
+            "periodo": {
+                "inicio": "2003",
+                "fin": "2014"
+            },
+            "sector": "Industria / Material eléctrico e iluminación",
+            "tipo_empresa": "empresa familiar multinacional",
+            "pais": "España",
+            "responsabilidades_clave": [
+                "Dirección general de Simon SA y otras empresas del grupo",
+                "Gestión de más de 1.000 empleados en cinco centros productivos",
+                "Lanzamiento de productos líderes en el mercado internacional",
+                "Dirección durante la crisis de 2008 con reestructuración y concentración de fábricas"
+            ],
+            "logros_destacados": [
+                "Crecimiento de la facturación hasta superar los 200 millones de euros",
+                "Reestructuración nacional con reducción del personal a la mitad para asegurar la viabilidad",
+                "Consolidación del liderazgo de Simon en el sector"
+            ]
+        },
+        {
+            "cargo": "Director Comercial / Subdirector General",
+            "empresa": "Simon",
+            "periodo": {
+                "inicio": "1995",
+                "fin": "2003"
+            },
+            "sector": "Industria / Material eléctrico e iluminación",
+            "tipo_empresa": "empresa familiar",
+            "pais": "España",
+            "responsabilidades_clave": [
+                "Dirección de ventas nacionales, exportaciones y filiales comerciales",
+                "Dirección del departamento de marketing",
+                "Creación del departamento de marketing en 1996",
+                "Gestión de un equipo de 130 personas"
+            ],
+            "logros_destacados": [
+                "Crecimiento del liderazgo de Simon en España frente a multinacionales competidoras",
+                "Consolidación de una cultura comercial centrada en el cliente y el producto"
+            ]
+        },
+        {
+            "cargo": "Gerente de Área",
+            "empresa": "PEPSICO Vending / Matutano – Snacks Ventures Europe",
+            "periodo": {
+                "inicio": "1991",
+                "fin": "1995"
+            },
+            "sector": "Consumo / Alimentación / Bebidas",
+            "tipo_empresa": "multinacional",
+            "pais": "España",
+            "responsabilidades_clave": [
+                "Dirección del lanzamiento del Departamento de Vending de Matutano",
+                "Definición de la oferta, cliente objetivo y operaciones del nuevo negocio",
+                "Supervisión del negocio de vending en el área de Barcelona",
+                "Integración de las líneas de snacks y bebidas"
+            ],
+            "logros_destacados": [
+                "Creación de PEPSICO Vending España tras el éxito del lanzamiento inicial"
+            ]
+        },
+        {
+            "cargo": "Director del Departamento de Celdas de Media Tensión",
+            "empresa": "Schneider Electric",
+            "periodo": {
+                "inicio": "1989",
+                "fin": "1991"
+            },
+            "sector": "Industria / Material eléctrico",
+            "tipo_empresa": "multinacional",
+            "pais": "España",
+            "responsabilidades_clave": [
+                "Dirección del departamento y supervisión de políticas comerciales",
+                "Verificación de pedidos y coordinación administrativa",
+                "Traslado del departamento desde Madrid a Barcelona y formación del nuevo equipo"
+            ],
+            "logros_destacados": []
+        },
+        {
+            "cargo": "Ingeniero Comercial de Exportación",
+            "empresa": "AMES – Aplicaciones de Metales Sinterizados",
+            "periodo": {
+                "inicio": "1986",
+                "fin": "1987"
+            },
+            "sector": "Industria / Automoción / Electrónica",
+            "tipo_empresa": "pyme industrial",
+            "pais": "España",
+            "responsabilidades_clave": [
+                "Gestión de clientes de sectores automóvil, informática y pequeño electrodoméstico",
+                "Coordinación de proyectos OEM",
+                "Seguimiento de pedidos y desarrollo de relaciones comerciales"
+            ],
+            "logros_destacados": []
+        }
+    ],
+    "experiencia_consejos": [
+        {
+            "cargo_en_consejo": "Presidente",
+            "tipo_de_consejo": "Consejo de asociación empresarial",
+            "empresa": "AFME – Asociación de Fabricantes de Material Eléctrico",
+            "periodo": {
+                "inicio": "2025",
+                "fin": "Actualidad"
+            },
+            "pais": "España",
+            "responsabilidades_clave": []
+        },
+        {
+            "cargo_en_consejo": "Miembro del Consejo de Administración",
+            "tipo_de_consejo": "Consejo de empresa",
+            "empresa": "Sequoia Desarrollo Empresarial SA",
+            "periodo": {
+                "inicio": "2020",
+                "fin": "Actualidad"
+            },
+            "pais": "España",
+            "responsabilidades_clave": []
+        },
+        {
+            "cargo_en_consejo": "Miembro del Consejo Asesor",
+            "tipo_de_consejo": "Consejo asesor",
+            "empresa": "Simon Holding",
+            "periodo": {
+                "inicio": "2020",
+                "fin": "2020"
+            },
+            "pais": "España",
+            "responsabilidades_clave": []
+        }
+    ],
+    "experiencia_comisiones": [
+        {
+            "comision": "Comisión Ejecutiva",
+            "empresa": "Barcelona Centre Disseny (BCD)",
+            "periodo": {
+                "inicio": "2019",
+                "fin": "2025"
+            },
+            "pais": "España"
+        }
+    ],
+    "experiencia_internacional": [
+        {
+            "region": "Europa",
+            "paises": [
+                "España",
+                "Polonia"
+            ]
+        },
+        {
+            "region": "Asia",
+            "paises": [
+                "China"
+            ]
+        },
+        {
+            "region": "América Latina",
+            "paises": [
+                "México"
+            ]
+        }
+    ],
+    "materias_especializacion": [
+        "dirección general",
+        "empresas familiares",
+        "material eléctrico",
+        "iluminación",
+        "gestión del cambio",
+        "restructuración empresarial",
+        "marketing estratégico",
+        "innovación",
+        "desarrollo de negocio",
+        "gobierno corporativo"
+    ],
+    "informacion_adicional": {
+        "publicaciones": [],
+        "conferencias": [],
+        "premios": [],
+        "voluntariado": [],
+        "formacion": [
+            {
+                "programa": "Programa De Directivo a Consejero",
+                "institucion": "IESE / AED",
+                "pais": "España",
+                "ciudad": "Madrid y Barcelona",
+                "tipo": "programa_consejeros"
+            },
+            {
+                "programa": "MBA – Master in Business Administration",
+                "institucion": "IESE Business School",
+                "pais": "España",
+                "ciudad": "Barcelona",
+                "tipo": "mba"
+            },
+            {
+                "programa": "Programa de Intercambio del MBA",
+                "institucion": "Kellogg School of Management",
+                "pais": "Estados Unidos",
+                "ciudad": "Chicago",
+                "tipo": "intercambio"
+            },
+            {
+                "programa": "Ingeniería Superior Industrial",
+                "institucion": "Universidad Politécnica de Cataluña (UPC)",
+                "pais": "España",
+                "ciudad": "Barcelona",
+                "tipo": "ingenieria"
+            }
+        ],
+        "otras_actividades": [
+            "Piloto Privado de avión",
+            "Profesor del Departamento de Marketing en MBA La Salle (2000–2003)",
+            "Profesor en Curso de Técnicas Comerciales de la UPC (1998–2000)"
+        ]
+    }
+}

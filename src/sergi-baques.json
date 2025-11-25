@@ -1,0 +1,264 @@
+{
+    "datos_personales": {
+        "nombre_completo": "Sergi Baqués Artó",
+        "email": "sergibaques2012@gmail.com",
+        "movil": "+34 620 551 789",
+        "ciudad": "Sant Cugat del Vallés, Barcelona",
+        "pais": "España",
+        "linkedin": "",
+        "idiomas": [
+            {
+                "idioma": "Spanish",
+                "nivel": "Native"
+            },
+            {
+                "idioma": "Catalan",
+                "nivel": "Native"
+            },
+            {
+                "idioma": "English",
+                "nivel": "Bilingual"
+            },
+            {
+                "idioma": "French",
+                "nivel": "Conversational"
+            }
+        ]
+    },
+    "experiencia_profesional": [
+        {
+            "cargo": "CEO & Managing Director",
+            "empresa": "Wolf Group Ibérico",
+            "periodo": {
+                "inicio": "2019",
+                "fin": "2024"
+            },
+            "sector": "Industria / Productos químicos para construcción",
+            "tipo_empresa": "multinacional",
+            "pais": "España",
+            "responsabilidades_clave": [
+                "Dirección general de la filial ibérica de Wolf Group, líder global en productos químicos para construcción",
+                "Gestión integral de dos fábricas y 130 empleados",
+                "Dirección de operaciones end-to-end: I+D, producción, SHEQ, ventas, marketing, finanzas, IT y RRHH",
+                "Desarrollo de mercados en Iberia, Europa, Centro y Sudamérica, Oriente Medio y África"
+            ],
+            "logros_destacados": [
+                "Incremento de ingresos de 19M€ a 36M€ en cinco años (+90%)",
+                "Diseño e implementación del 'Alchemist Program' como modelo escalable de crecimiento y engagement",
+                "Aumento de la base de clientes de 2.000 a 3.000 (+50%)",
+                "Migración de marca de Olive a Penosil con crecimientos de doble dígito desde 2022",
+                "Puesta en marcha de la primera planta de espuma de poliuretano en spray en Iberia (inversión 4M€)"
+            ]
+        },
+        {
+            "cargo": "Chief Executive Officer",
+            "empresa": "Quilosa Selena Iberia",
+            "periodo": {
+                "inicio": "2017",
+                "fin": "2019"
+            },
+            "sector": "Industria / Construcción / Adhesivos y sellantes",
+            "tipo_empresa": "multinacional",
+            "pais": "España",
+            "responsabilidades_clave": [
+                "Dirección general de la filial de Selena Group en Iberia",
+                "Gestión de equipos multifuncionales: I+D, producción, ventas, marketing y finanzas",
+                "Definición e implementación de estrategias de crecimiento de portfolio y de organización comercial",
+                "Expansión de la presencia internacional en Francia, Bélgica, Magreb, Sudáfrica, Grecia, Colombia, Rusia y Turquía"
+            ],
+            "logros_destacados": [
+                "Incremento de ingresos de 28M€ a 53M€ entre 2013 y 2019 (+89%, incluyendo etapa previa como Managing Director)",
+                "Implantación de nuevas líneas de producto (+7% anual)",
+                "Mejoras en la organización comercial y adquisición de clientes (+9% anual)"
+            ]
+        },
+        {
+            "cargo": "Managing Director",
+            "empresa": "Quilosa Selena Iberia",
+            "periodo": {
+                "inicio": "2013",
+                "fin": "2017"
+            },
+            "sector": "Industria / Construcción",
+            "tipo_empresa": "multinacional",
+            "pais": "España",
+            "responsabilidades_clave": [
+                "Dirección de la transformación de la compañía en Iberia",
+                "Diseño y ejecución de la estrategia trienal 2016–2018",
+                "Construcción de un equipo directivo de alto rendimiento"
+            ],
+            "logros_destacados": [
+                "Reversión de años de pérdidas y recuperación de la rentabilidad en el primer año",
+                "Crecimiento sostenido de ingresos y cuota de mercado",
+                "Planificación y ejecución de una hoja de ruta de crecimiento rentable"
+            ]
+        },
+        {
+            "cargo": "Managing Director",
+            "empresa": "Lidera Higiene",
+            "periodo": {
+                "inicio": "2008",
+                "fin": "2012"
+            },
+            "sector": "Distribución industrial / Higiene",
+            "tipo_empresa": "pyme",
+            "pais": "España",
+            "responsabilidades_clave": [
+                "Dirección general de distribuidor industrial con 20M€ en ventas y más de 8.000 clientes",
+                "Liderazgo del proceso de M&A y fusión de cinco empresas familiares",
+                "Definición de alianzas estratégicas con proveedores globales"
+            ],
+            "logros_destacados": [
+                "Consecución de sinergias operativas y de integración cultural",
+                "Alianzas estratégicas con Ecolab, Evonik y SCA que impulsaron la rentabilidad y el posicionamiento",
+                "Reducción de costes operativos en 1,5M€ con mejora de la eficiencia logística y del servicio"
+            ]
+        },
+        {
+            "cargo": "Global Marketing Director",
+            "empresa": "Vueling Airlines",
+            "periodo": {
+                "inicio": "2006",
+                "fin": "2007"
+            },
+            "sector": "Aerolíneas / Transporte",
+            "tipo_empresa": "multinacional",
+            "pais": "España",
+            "responsabilidades_clave": [
+                "Dirección global de marketing para aerolínea de nueva generación con 400M€ de ingresos",
+                "Gestión de un presupuesto anual de marketing de 2,7M€",
+                "Desarrollo de alianzas de marca estratégicas"
+            ],
+            "logros_destacados": [
+                "Alianzas con FC Barcelona y Real Madrid, impulsando un +30% en el factor de ocupación",
+                "Optimización del ROI mediante campañas dirigidas"
+            ]
+        },
+        {
+            "cargo": "Various Leadership Roles in Supply Chain, M&A, Sales and Marketing",
+            "empresa": "Henkel Ibérica",
+            "periodo": {
+                "inicio": "1992",
+                "fin": "2005"
+            },
+            "sector": "Industria química / Adhesivos y soluciones industriales",
+            "tipo_empresa": "multinacional",
+            "pais": "España",
+            "responsabilidades_clave": [
+                "Transformación de la cadena de suministro en España y Portugal",
+                "Gestión de estrategias B2B y B2C para Loctite, Super Glue y sellantes",
+                "Desarrollo de producto, diferenciación de mercado y segmentación"
+            ],
+            "logros_destacados": [
+                "Ahorro de 1M€ en supply chain con mejora del nivel de servicio",
+                "Logro de cuotas de mercado récord en canales clave",
+                "Liderazgo de la adquisición de una empresa de sellantes para entrar en el mercado profesional"
+            ]
+        }
+    ],
+    "experiencia_consejos": [
+        {
+            "cargo_en_consejo": "Miembro del Consejo de Administración",
+            "tipo_de_consejo": "consejo de empresa",
+            "empresa": "Quilosa Selena Iberia",
+            "periodo": {
+                "inicio": "2017",
+                "fin": "2019"
+            },
+            "pais": "España",
+            "responsabilidades_clave": [
+                "Supervisión de la visión estratégica, eficiencia operativa y expansión global"
+            ]
+        }
+    ],
+    "experiencia_comisiones": [],
+    "experiencia_internacional": [
+        {
+            "region": "Europa",
+            "paises": [
+                "España",
+                "Francia",
+                "Bélgica",
+                "Grecia",
+                "Rusia",
+                "Turquía"
+            ]
+        },
+        {
+            "region": "África",
+            "paises": [
+                "Magreb",
+                "Sudáfrica"
+            ]
+        },
+        {
+            "region": "América Latina",
+            "paises": [
+                "Colombia",
+                "Países de Centro y Sudamérica (varios)"
+            ]
+        },
+        {
+            "region": "Oriente Medio",
+            "paises": []
+        }
+    ],
+    "materias_especializacion": [
+        "dirección general",
+        "transformación empresarial",
+        "crecimiento orgánico",
+        "expansión internacional",
+        "planificación a tres años",
+        "M&A",
+        "apalancamiento comercial",
+        "brand management",
+        "experiencia de cliente",
+        "cultura de alto rendimiento",
+        "innovación de producto",
+        "gestión de equipos multifuncionales",
+        "gestión de P&L",
+        "gobierno corporativo"
+    ],
+    "informacion_adicional": {
+        "publicaciones": [],
+        "conferencias": [],
+        "premios": [],
+        "voluntariado": [],
+        "formacion": [
+            {
+                "programa": "Global Executive MBA",
+                "institucion": "University of Chicago Booth School of Business",
+                "pais": "Estados Unidos",
+                "ciudad": "",
+                "tipo": "executive_mba"
+            },
+            {
+                "programa": "Degree in Economics & Business Administration",
+                "institucion": "University of Barcelona",
+                "pais": "España",
+                "ciudad": "Barcelona",
+                "tipo": "grado"
+            },
+            {
+                "programa": "Executive Board Program: Transitioning from Steering Committee to Board of Directors",
+                "institucion": "IESE Business School & KPMG",
+                "pais": "España",
+                "ciudad": "Madrid",
+                "tipo": "programa_consejeros"
+            },
+            {
+                "programa": "Artificial Intelligence for CEOs & Board Members",
+                "institucion": "Spanish Association of Senior Executives (AED)",
+                "pais": "España",
+                "ciudad": "",
+                "tipo": "formación_ejecutiva_online"
+            }
+        ],
+        "afiliaciones": [
+            "Miembro de la Asociación Española de Directivos (AED)",
+            "Expresidente de ASEFCA (Asociación Española de Fabricantes de Colas y Adhesivos)",
+            "Certified CEO Competency Assessment (360-Degree Evaluation)",
+            "Participación continua en programas ejecutivos de liderazgo, transformación digital y gestión intercultural"
+        ]
+    }
+}

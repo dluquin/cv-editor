@@ -1,0 +1,233 @@
+{
+    "datos_personales": {
+        "nombre_completo": "Roberto Rodríguez Orro",
+        "email": "orro@icoiig.es",
+        "movil": "",
+        "ciudad": "A Coruña",
+        "pais": "España",
+        "linkedin": "",
+        "idiomas": []
+    },
+    "experiencia_profesional": [
+        {
+            "cargo": "Engineer – Designer",
+            "empresa": "Aleaciones Ligeras y Plásticos, S.L.",
+            "periodo": {
+                "inicio": "1999-04",
+                "fin": "2000-06"
+            },
+            "sector": "Industria / Fabricación",
+            "tipo_empresa": "pyme",
+            "pais": "España",
+            "responsabilidades_clave": [
+                "Diseño y fabricación de equipos termoeléctricos (thermoelectric coolers)",
+                "Especialista en aleaciones ligeras"
+            ],
+            "logros_destacados": []
+        },
+        {
+            "cargo": "Sales Engineer",
+            "empresa": "UNEX, Aparellaje Eléctrico",
+            "periodo": {
+                "inicio": "2000-09",
+                "fin": "2002-12"
+            },
+            "sector": "Industria / Material eléctrico",
+            "tipo_empresa": "pyme",
+            "pais": "España",
+            "responsabilidades_clave": [
+                "Ingeniero de ventas en empresa líder en sistemas de bandejas y canalizaciones para cables eléctricos y de datos",
+                "Soporte técnico-comercial a clientes industriales"
+            ],
+            "logros_destacados": []
+        },
+        {
+            "cargo": "Technical Manager",
+            "empresa": "ATEIN NAVAL ATENASA Sistemas Ecológicos, S.L.",
+            "periodo": {
+                "inicio": "2003-01",
+                "fin": "2005-07"
+            },
+            "sector": "Industria ferroviaria / Naval",
+            "tipo_empresa": "pyme",
+            "pais": "España",
+            "responsabilidades_clave": [
+                "Gestión técnica de proyectos en industria ferroviaria",
+                "Diseño y gestión de proyectos de cabinas de conducción de locomotoras",
+                "Diseño de sistemas de acomodación de vagones",
+                "Desarrollo de sistemas de transporte y carga para vagones"
+            ],
+            "logros_destacados": []
+        },
+        {
+            "cargo": "Director",
+            "empresa": "ATEIN NAVAL, S.A.",
+            "periodo": {
+                "inicio": "2005-07",
+                "fin": "2014-09"
+            },
+            "sector": "Industria naval",
+            "tipo_empresa": "pyme",
+            "pais": "España",
+            "responsabilidades_clave": [
+                "Dirección de empresa especializada en aislamientos térmicos, ignífugos y acústicos",
+                "Gestión de proyectos de aislamiento en el sector naval e industrial",
+                "Supervisión de equipos técnicos y de instalación"
+            ],
+            "logros_destacados": []
+        },
+        {
+            "cargo": "Founding Partner & Director",
+            "empresa": "TECAIS, S.L.",
+            "periodo": {
+                "inicio": "2006-12",
+                "fin": "2015-02"
+            },
+            "sector": "Industria naval e industrial / Metal",
+            "tipo_empresa": "pyme",
+            "pais": "España",
+            "responsabilidades_clave": [
+                "Socio fundador y director de empresa de diseño, fabricación e instalación",
+                "Diseño y fabricación de mobiliario metálico",
+                "Ejecución de obras de calderería ligera y estructuras de acero en sectores naval e industrial",
+                "Gestión integral de proyectos de instalación en buques e instalaciones industriales"
+            ],
+            "logros_destacados": []
+        },
+        {
+            "cargo": "General Manager",
+            "empresa": "IBERCISA Deckmachinery, S.A.",
+            "periodo": {
+                "inicio": "2015-02",
+                "fin": "Actualidad"
+            },
+            "sector": "Industria naval / Maquinaria de cubierta",
+            "tipo_empresa": "pyme",
+            "pais": "España",
+            "responsabilidades_clave": [
+                "Dirección general de compañía tecnológica con larga experiencia en maquinaria de cubierta naval",
+                "Supervisión del diseño y fabricación de maquinaria de cubierta para todo tipo de buques",
+                "Impulso de soluciones tecnológicas y personalizadas para armadores y astilleros",
+                "Gestión de pymes industriales con foco en mejora de la gestión y competitividad",
+                "Miembro del consejo de administración"
+            ],
+            "logros_destacados": []
+        }
+    ],
+    "experiencia_consejos": [
+        {
+            "cargo_en_consejo": "Board Member",
+            "tipo_de_consejo": "",
+            "empresa": "ISONELL, S.L.",
+            "periodo": {
+                "inicio": "2008-01",
+                "fin": "2011-06"
+            },
+            "pais": "España",
+            "responsabilidades_clave": [
+                "Miembro del consejo de empresa fabricante de sistemas de acomodación naval"
+            ]
+        },
+        {
+            "cargo_en_consejo": "Board Member",
+            "tipo_de_consejo": "",
+            "empresa": "IBERCISA Deckmachinery, S.A.",
+            "periodo": {
+                "inicio": "2015-02",
+                "fin": "Actualidad"
+            },
+            "pais": "España",
+            "responsabilidades_clave": [
+                "Miembro del consejo de administración de empresa de maquinaria de cubierta naval",
+                "Participación en decisiones estratégicas y de gobierno corporativo en pyme industrial"
+            ]
+        }
+    ],
+    "experiencia_comisiones": [],
+    "experiencia_internacional": [
+        {
+            "region": "Europa",
+            "paises": [
+                "España"
+            ]
+        }
+    ],
+    "materias_especializacion": [
+        "ingeniería mecánica",
+        "gestión de pymes",
+        "dirección general",
+        "industria naval",
+        "aislamientos térmicos, ignífugos y acústicos",
+        "maquinaria de cubierta naval",
+        "diseño y fabricación de componentes industriales",
+        "inyección de plásticos y termoconformado",
+        "diseño de equipos termoeléctricos",
+        "gestión de proyectos internacionales",
+        "liderazgo de equipos multidisciplinares",
+        "participación en consejos de administración"
+    ],
+    "informacion_adicional": {
+        "publicaciones": [],
+        "conferencias": [],
+        "premios": [],
+        "voluntariado": [],
+        "formacion": [
+            {
+                "programa": "Industrial Engineer, Mechanical",
+                "institucion": "ETSII Vigo",
+                "ciudad": "Vigo",
+                "pais": "España",
+                "tipo": "grado"
+            },
+            {
+                "programa": "Specialist in Applicated Acoustic",
+                "institucion": "ETSIT Vigo",
+                "ciudad": "Vigo",
+                "pais": "España",
+                "tipo": "especializacion"
+            },
+            {
+                "programa": "Executive MBA",
+                "institucion": "Escuela de Negocios Novacaixagalicia",
+                "ciudad": "Vigo",
+                "pais": "España",
+                "tipo": "executive_mba"
+            },
+            {
+                "programa": "Master in International Business",
+                "institucion": "Escuela de Negocios Novacaixagalicia",
+                "ciudad": "Vigo",
+                "pais": "España",
+                "tipo": "master"
+            },
+            {
+                "programa": "International Business Program",
+                "institucion": "Georgetown University",
+                "ciudad": "Washington DC",
+                "pais": "Estados Unidos",
+                "tipo": "programa_internacional"
+            },
+            {
+                "programa": "De Directivo a Consejero",
+                "institucion": "IESE - AED - KPMG",
+                "ciudad": "",
+                "pais": "España",
+                "tipo": "programa_consejeros"
+            },
+            {
+                "programa": "Innovation Management Program",
+                "institucion": "ITEG",
+                "ciudad": "A Coruña",
+                "pais": "España",
+                "tipo": "formacion_complementaria"
+            },
+            {
+                "programa": "Team Building Training",
+                "institucion": "Ingafor",
+                "ciudad": "A Coruña",
+                "pais": "España",
+                "tipo": "formacion_complementaria"
+            }
+        ]
+    }
+}
