@@ -1,6 +1,6 @@
 import React from 'react';
 
-function AdditionalInfo({ data, onChange }) {
+function AdditionalInfo({ data, onChange, errors = {} }) {
     const handleArrayChange = (field, index, value) => {
         const newData = { ...data };
         const newArray = [...newData[field]];
@@ -51,6 +51,9 @@ function AdditionalInfo({ data, onChange }) {
 
     if (!data) return <div className="empty-state">No hay información adicional.</div>;
 
+    // errors prop comes as { formacion: { 0: { programa: true }, ... } }
+    const formacionErrors = errors.formacion || {};
+
     return (
         <section className="card">
             <h2>Información Adicional</h2>
@@ -58,56 +61,63 @@ function AdditionalInfo({ data, onChange }) {
             <div className="subsection">
                 <h3>Formación</h3>
                 <button className="btn-secondary" onClick={addFormacion}>+ Añadir Formación</button>
-                {data.formacion?.map((item, index) => (
-                    <div key={index} className="experience-item">
-                        <div className="item-header">
-                            <h4>{item.programa || 'Programa'}</h4>
-                            <button className="btn-danger" onClick={() => removeFormacion(index)}>Eliminar</button>
+                {data.formacion?.map((item, index) => {
+                    const itemErrors = formacionErrors[index] || {};
+                    return (
+                        <div key={index} className="experience-item">
+                            <div className="item-header">
+                                <h4>{item.programa || 'Programa'}</h4>
+                                <button className="btn-danger" onClick={() => removeFormacion(index)}>Eliminar</button>
+                            </div>
+                            <div className="grid-2">
+                                <div className="form-group">
+                                    <label>Programa</label>
+                                    <input
+                                        type="text"
+                                        value={item.programa || ''}
+                                        onChange={(e) => handleFormacionChange(index, 'programa', e.target.value)}
+                                        className={itemErrors.programa ? 'invalid' : ''}
+                                    />
+                                </div>
+                                <div className="form-group">
+                                    <label>Institución</label>
+                                    <input
+                                        type="text"
+                                        value={item.institucion || ''}
+                                        onChange={(e) => handleFormacionChange(index, 'institucion', e.target.value)}
+                                        className={itemErrors.institucion ? 'invalid' : ''}
+                                    />
+                                </div>
+                                <div className="form-group">
+                                    <label>Ciudad</label>
+                                    <input
+                                        type="text"
+                                        value={item.ciudad || ''}
+                                        onChange={(e) => handleFormacionChange(index, 'ciudad', e.target.value)}
+                                        className={itemErrors.ciudad ? 'invalid' : ''}
+                                    />
+                                </div>
+                                <div className="form-group">
+                                    <label>País</label>
+                                    <input
+                                        type="text"
+                                        value={item.pais || ''}
+                                        onChange={(e) => handleFormacionChange(index, 'pais', e.target.value)}
+                                        className={itemErrors.pais ? 'invalid' : ''}
+                                    />
+                                </div>
+                                <div className="form-group">
+                                    <label>Tipo</label>
+                                    <input
+                                        type="text"
+                                        value={item.tipo || ''}
+                                        onChange={(e) => handleFormacionChange(index, 'tipo', e.target.value)}
+                                    />
+                                </div>
+                            </div>
                         </div>
-                        <div className="grid-2">
-                            <div className="form-group">
-                                <label>Programa</label>
-                                <input
-                                    type="text"
-                                    value={item.programa || ''}
-                                    onChange={(e) => handleFormacionChange(index, 'programa', e.target.value)}
-                                />
-                            </div>
-                            <div className="form-group">
-                                <label>Institución</label>
-                                <input
-                                    type="text"
-                                    value={item.institucion || ''}
-                                    onChange={(e) => handleFormacionChange(index, 'institucion', e.target.value)}
-                                />
-                            </div>
-                            <div className="form-group">
-                                <label>Ciudad</label>
-                                <input
-                                    type="text"
-                                    value={item.ciudad || ''}
-                                    onChange={(e) => handleFormacionChange(index, 'ciudad', e.target.value)}
-                                />
-                            </div>
-                            <div className="form-group">
-                                <label>País</label>
-                                <input
-                                    type="text"
-                                    value={item.pais || ''}
-                                    onChange={(e) => handleFormacionChange(index, 'pais', e.target.value)}
-                                />
-                            </div>
-                            <div className="form-group">
-                                <label>Tipo</label>
-                                <input
-                                    type="text"
-                                    value={item.tipo || ''}
-                                    onChange={(e) => handleFormacionChange(index, 'tipo', e.target.value)}
-                                />
-                            </div>
-                        </div>
-                    </div>
-                ))}
+                    );
+                })}
             </div>
 
             {['publicaciones', 'conferencias', 'premios', 'voluntariado'].map((field) => (

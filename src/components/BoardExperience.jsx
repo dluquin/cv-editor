@@ -1,6 +1,6 @@
 import React from 'react';
 
-function BoardExperience({ data, onChange }) {
+function BoardExperience({ data, onChange, errors = {} }) {
     const handleChange = (index, field, value) => {
         const newData = [...data];
         newData[index] = { ...newData[index], [field]: value };
@@ -58,11 +58,15 @@ function BoardExperience({ data, onChange }) {
 
     const getInputValue = (dateStr) => {
         if (!dateStr) return '';
+        if (dateStr.match(/^\d{4}-\d{2}$/)) return dateStr;
         if (dateStr.match(/^\d{2}-\d{4}$/)) {
             const [month, year] = dateStr.split('-');
             return `${year}-${month}`;
         }
-        return dateStr;
+        if (dateStr.match(/^\d{4}$/)) {
+            return `${dateStr}-01`;
+        }
+        return '';
     };
 
     if (!data) return <div className="empty-state">No hay datos de consejos.</div>;
@@ -76,95 +80,101 @@ function BoardExperience({ data, onChange }) {
                 </button>
             </div>
             {data.length === 0 && <div className="empty-state">No hay experiencia en consejos registrada.</div>}
-            {data.map((item, index) => (
-                <div key={index} className="experience-item">
-                    <div className="item-header">
-                        <h3>{item.cargo_en_consejo || 'Cargo'} en {item.empresa || 'Empresa'}</h3>
-                        <button className="btn-danger" onClick={() => removeItem(index)}>
-                            Eliminar
-                        </button>
-                    </div>
-                    <div className="grid-2">
-                        <div className="form-group">
-                            <label>Cargo en Consejo</label>
-                            <input
-                                type="text"
-                                value={item.cargo_en_consejo || ''}
-                                onChange={(e) => handleChange(index, 'cargo_en_consejo', e.target.value)}
-                            />
+            {data.map((item, index) => {
+                const itemErrors = errors[index] || {};
+                return (
+                    <div key={index} className="experience-item">
+                        <div className="item-header">
+                            <h3>{item.cargo_en_consejo || 'Cargo'} en {item.empresa || 'Empresa'}</h3>
+                            <button className="btn-danger" onClick={() => removeItem(index)}>
+                                Eliminar
+                            </button>
                         </div>
-                        <div className="form-group">
-                            <label>Tipo de Consejo</label>
-                            <input
-                                type="text"
-                                value={item.tipo_de_consejo || ''}
-                                onChange={(e) => handleChange(index, 'tipo_de_consejo', e.target.value)}
-                            />
-                        </div>
-                        <div className="form-group">
-                            <label>Empresa</label>
-                            <input
-                                type="text"
-                                value={item.empresa || ''}
-                                onChange={(e) => handleChange(index, 'empresa', e.target.value)}
-                            />
-                        </div>
-                        <div className="form-group">
-                            <label>País</label>
-                            <input
-                                type="text"
-                                value={item.pais || ''}
-                                onChange={(e) => handleChange(index, 'pais', e.target.value)}
-                            />
-                        </div>
-                        <div className="date-row">
+                        <div className="grid-2">
                             <div className="form-group">
-                                <label>Inicio</label>
+                                <label>Cargo en Consejo</label>
                                 <input
-                                    type="month"
-                                    value={getInputValue(item.periodo?.inicio)}
-                                    onChange={(e) => handlePeriodChange(index, 'inicio', e.target.value)}
+                                    type="text"
+                                    value={item.cargo_en_consejo || ''}
+                                    onChange={(e) => handleChange(index, 'cargo_en_consejo', e.target.value)}
+                                    className={itemErrors.cargo_en_consejo ? 'invalid' : ''}
                                 />
                             </div>
                             <div className="form-group">
-                                <label>Fin</label>
-                                <div className="input-with-checkbox">
+                                <label>Tipo de Consejo</label>
+                                <input
+                                    type="text"
+                                    value={item.tipo_de_consejo || ''}
+                                    onChange={(e) => handleChange(index, 'tipo_de_consejo', e.target.value)}
+                                />
+                            </div>
+                            <div className="form-group">
+                                <label>Empresa</label>
+                                <input
+                                    type="text"
+                                    value={item.empresa || ''}
+                                    onChange={(e) => handleChange(index, 'empresa', e.target.value)}
+                                    className={itemErrors.empresa ? 'invalid' : ''}
+                                />
+                            </div>
+                            <div className="form-group">
+                                <label>País</label>
+                                <input
+                                    type="text"
+                                    value={item.pais || ''}
+                                    onChange={(e) => handleChange(index, 'pais', e.target.value)}
+                                />
+                            </div>
+                            <div className="date-row">
+                                <div className="form-group">
+                                    <label>Inicio</label>
                                     <input
                                         type="month"
-                                        value={getInputValue(item.periodo?.fin)}
-                                        onChange={(e) => handlePeriodChange(index, 'fin', e.target.value)}
-                                        disabled={item.periodo?.fin === 'Actualidad'}
+                                        value={getInputValue(item.periodo?.inicio)}
+                                        onChange={(e) => handlePeriodChange(index, 'inicio', e.target.value)}
+                                        className={itemErrors['periodo.inicio'] ? 'invalid' : ''}
                                     />
-                                    <label className="checkbox-label">
+                                </div>
+                                <div className="form-group">
+                                    <label>Fin</label>
+                                    <div className="input-with-checkbox">
                                         <input
-                                            type="checkbox"
-                                            checked={item.periodo?.fin === 'Actualidad'}
-                                            onChange={(e) => handlePeriodChange(index, 'fin', e.target.checked ? 'Actualidad' : '')}
+                                            type="month"
+                                            value={getInputValue(item.periodo?.fin)}
+                                            onChange={(e) => handlePeriodChange(index, 'fin', e.target.value)}
+                                            disabled={item.periodo?.fin === 'Actualidad'}
                                         />
-                                        Actualidad
-                                    </label>
+                                        <label className="checkbox-label">
+                                            <input
+                                                type="checkbox"
+                                                checked={item.periodo?.fin === 'Actualidad'}
+                                                onChange={(e) => handlePeriodChange(index, 'fin', e.target.checked ? 'Actualidad' : '')}
+                                            />
+                                            Actualidad
+                                        </label>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
 
-                    <div className="array-section">
-                        <h4>Responsabilidades Clave</h4>
-                        {item.responsabilidades_clave?.map((resp, i) => (
-                            <div key={i} className="array-item">
-                                <textarea
-                                    value={resp}
-                                    onChange={(e) => handleArrayChange(index, 'responsabilidades_clave', i, e.target.value)}
-                                />
-                                <button className="btn-icon" onClick={() => removeArrayItem(index, 'responsabilidades_clave', i)}>×</button>
-                            </div>
-                        ))}
-                        <button className="btn-secondary" onClick={() => addArrayItem(index, 'responsabilidades_clave')}>
-                            + Añadir Responsabilidad
-                        </button>
+                        <div className="array-section">
+                            <h4>Responsabilidades Clave</h4>
+                            {item.responsabilidades_clave?.map((resp, i) => (
+                                <div key={i} className="array-item">
+                                    <textarea
+                                        value={resp}
+                                        onChange={(e) => handleArrayChange(index, 'responsabilidades_clave', i, e.target.value)}
+                                    />
+                                    <button className="btn-icon" onClick={() => removeArrayItem(index, 'responsabilidades_clave', i)}>×</button>
+                                </div>
+                            ))}
+                            <button className="btn-secondary" onClick={() => addArrayItem(index, 'responsabilidades_clave')}>
+                                + Añadir Responsabilidad
+                            </button>
+                        </div>
                     </div>
-                </div>
-            ))}
+                );
+            })}
         </section>
     );
 }

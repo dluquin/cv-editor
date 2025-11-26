@@ -1,6 +1,6 @@
 import React from 'react';
 
-function International({ data, onChange }) {
+function International({ data, onChange, errors = {} }) {
     const handleChange = (index, field, value) => {
         const newData = [...data];
         newData[index] = { ...newData[index], [field]: value };
@@ -53,43 +53,47 @@ function International({ data, onChange }) {
                     + Añadir Región
                 </button>
             </div>
-            {data.map((item, index) => (
-                <div key={index} className="experience-item">
-                    <div className="item-header">
-                        <h3>{item.region || 'Nueva Región'}</h3>
-                        <button className="btn-danger" onClick={() => removeItem(index)}>
-                            Eliminar
-                        </button>
-                    </div>
-                    <div className="form-group">
-                        <label>Región</label>
-                        <input
-                            type="text"
-                            value={item.region || ''}
-                            onChange={(e) => handleChange(index, 'region', e.target.value)}
-                        />
-                    </div>
-
-                    <div className="array-section">
-                        <h4>Países</h4>
-                        <div className="tags-container">
-                            {item.paises?.map((pais, i) => (
-                                <div key={i} className="tag-edit">
-                                    <input
-                                        type="text"
-                                        value={pais}
-                                        onChange={(e) => handlePaisesChange(index, i, e.target.value)}
-                                    />
-                                    <button onClick={() => removePais(index, i)}>×</button>
-                                </div>
-                            ))}
-                            <button className="btn-tag" onClick={() => addPais(index)}>
-                                + Añadir País
+            {data.map((item, index) => {
+                const itemErrors = errors[index] || {};
+                return (
+                    <div key={index} className="experience-item">
+                        <div className="item-header">
+                            <h3>{item.region || 'Nueva Región'}</h3>
+                            <button className="btn-danger" onClick={() => removeItem(index)}>
+                                Eliminar
                             </button>
                         </div>
+                        <div className="form-group">
+                            <label>Región</label>
+                            <input
+                                type="text"
+                                value={item.region || ''}
+                                onChange={(e) => handleChange(index, 'region', e.target.value)}
+                                className={itemErrors.region ? 'invalid' : ''}
+                            />
+                        </div>
+
+                        <div className="array-section">
+                            <h4>Países</h4>
+                            <div className="tags-container">
+                                {item.paises?.map((pais, i) => (
+                                    <div key={i} className="tag-edit">
+                                        <input
+                                            type="text"
+                                            value={pais}
+                                            onChange={(e) => handlePaisesChange(index, i, e.target.value)}
+                                        />
+                                        <button onClick={() => removePais(index, i)}>×</button>
+                                    </div>
+                                ))}
+                                <button className="btn-tag" onClick={() => addPais(index)}>
+                                    + Añadir País
+                                </button>
+                            </div>
+                        </div>
                     </div>
-                </div>
-            ))}
+                );
+            })}
         </section>
     );
 }

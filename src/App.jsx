@@ -1,10 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import PersonalData from './components/PersonalData';
 import Experience from './components/Experience';
 import BoardExperience from './components/BoardExperience';
 import International from './components/International';
 import Specialization from './components/Specialization';
 import AdditionalInfo from './components/AdditionalInfo';
+import { validateProfile, countErrors } from './utils/validation';
 
 // Load all JSON files from src directory
 const cvFiles = import.meta.glob('./*.json', { eager: true });
@@ -49,15 +50,17 @@ function App() {
         downloadAnchorNode.remove();
     };
 
+    const validationErrors = useMemo(() => validateProfile(data), [data]);
+
     if (!data) return <div className="loading">Cargando...</div>;
 
     const tabs = [
-        { id: 'personal', label: 'Datos Personales' },
-        { id: 'experience', label: 'Experiencia' },
-        { id: 'board', label: 'Consejos' },
-        { id: 'international', label: 'Internacional' },
-        { id: 'specialization', label: 'Especialización' },
-        { id: 'additional', label: 'Info Adicional' },
+        { id: 'personal', label: 'Datos Personales', errorCount: countErrors(validationErrors.personal) },
+        { id: 'experience', label: 'Experiencia', errorCount: countErrors(validationErrors.experience) },
+        { id: 'board', label: 'Consejos', errorCount: countErrors(validationErrors.board) },
+        { id: 'international', label: 'Internacional', errorCount: countErrors(validationErrors.international) },
+        { id: 'specialization', label: 'Especialización', errorCount: countErrors(validationErrors.specialization) },
+        { id: 'additional', label: 'Info Adicional', errorCount: countErrors(validationErrors.additional?.formacion) }, // Only counting education errors for now
     ];
 
     return (
@@ -99,6 +102,9 @@ function App() {
                             onClick={() => setActiveTab(tab.id)}
                         >
                             {tab.label}
+                            {tab.errorCount > 0 && (
+                                <span className="tab-badge">{tab.errorCount}</span>
+                            )}
                         </button>
                     ))}
                 </nav>
@@ -110,6 +116,7 @@ function App() {
                         <PersonalData
                             data={data.datos_personales}
                             onChange={(newData) => setData({ ...data, datos_personales: newData })}
+                            errors={validationErrors.personal}
                         />
                     )}
 
@@ -117,6 +124,7 @@ function App() {
                         <Experience
                             data={data.experiencia_profesional || []}
                             onChange={(newData) => setData({ ...data, experiencia_profesional: newData })}
+                            errors={validationErrors.experience}
                         />
                     )}
 
@@ -124,6 +132,7 @@ function App() {
                         <BoardExperience
                             data={data.experiencia_consejos || []}
                             onChange={(newData) => setData({ ...data, experiencia_consejos: newData })}
+                            errors={validationErrors.board}
                         />
                     )}
 
@@ -131,6 +140,7 @@ function App() {
                         <International
                             data={data.experiencia_internacional || []}
                             onChange={(newData) => setData({ ...data, experiencia_internacional: newData })}
+                            errors={validationErrors.international}
                         />
                     )}
 
@@ -138,6 +148,7 @@ function App() {
                         <Specialization
                             data={data.materias_especializacion || []}
                             onChange={(newData) => setData({ ...data, materias_especializacion: newData })}
+                            errors={validationErrors.specialization}
                         />
                     )}
 
@@ -145,6 +156,7 @@ function App() {
                         <AdditionalInfo
                             data={data.informacion_adicional || {}}
                             onChange={(newData) => setData({ ...data, informacion_adicional: newData })}
+                            errors={validationErrors.additional}
                         />
                     )}
                 </div>

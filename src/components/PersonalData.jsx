@@ -1,6 +1,6 @@
 import React from 'react';
 
-function PersonalData({ data, onChange }) {
+function PersonalData({ data, onChange, errors = {} }) {
   const handleChange = (e) => {
     const { name, value } = e.target;
     onChange({ ...data, [name]: value });
@@ -19,6 +19,7 @@ function PersonalData({ data, onChange }) {
             name="nombre_completo"
             value={data.nombre_completo || ''}
             onChange={handleChange}
+            className={errors.nombre_completo ? 'invalid' : ''}
           />
         </div>
         <div className="form-group">
@@ -28,6 +29,7 @@ function PersonalData({ data, onChange }) {
             name="email"
             value={data.email || ''}
             onChange={handleChange}
+            className={errors.email ? 'invalid' : ''}
           />
         </div>
         <div className="form-group">
@@ -37,6 +39,7 @@ function PersonalData({ data, onChange }) {
             name="movil"
             value={data.movil || ''}
             onChange={handleChange}
+            className={errors.movil ? 'invalid' : ''}
           />
         </div>
         <div className="form-group">
@@ -46,6 +49,7 @@ function PersonalData({ data, onChange }) {
             name="ciudad"
             value={data.ciudad || ''}
             onChange={handleChange}
+            className={errors.ciudad ? 'invalid' : ''}
           />
         </div>
         <div className="form-group">
@@ -55,6 +59,7 @@ function PersonalData({ data, onChange }) {
             name="pais"
             value={data.pais || ''}
             onChange={handleChange}
+            className={errors.pais ? 'invalid' : ''}
           />
         </div>
         <div className="form-group">
@@ -64,6 +69,7 @@ function PersonalData({ data, onChange }) {
             name="linkedin"
             value={data.linkedin || ''}
             onChange={handleChange}
+            className={errors.linkedin ? 'invalid' : ''}
           />
         </div>
       </div>
