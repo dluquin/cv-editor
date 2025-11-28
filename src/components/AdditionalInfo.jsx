@@ -49,6 +49,30 @@ function AdditionalInfo({ data, onChange, errors = {} }) {
         onChange({ ...newData, formacion: newFormacion });
     };
 
+    const handleFormacionPeriodChange = (index, subfield, value) => {
+        const newData = { ...data };
+        const newFormacion = [...newData.formacion];
+        const currentPeriodo = newFormacion[index].periodo || {};
+        newFormacion[index] = {
+            ...newFormacion[index],
+            periodo: { ...currentPeriodo, [subfield]: value }
+        };
+        onChange({ ...newData, formacion: newFormacion });
+    };
+
+    const getInputValue = (dateStr) => {
+        if (!dateStr) return '';
+        if (dateStr.match(/^\d{4}-\d{2}$/)) return dateStr;
+        if (dateStr.match(/^\d{2}-\d{4}$/)) {
+            const [month, year] = dateStr.split('-');
+            return `${year}-${month}`;
+        }
+        if (dateStr.match(/^\d{4}$/)) {
+            return `${dateStr}-01`;
+        }
+        return '';
+    };
+
     if (!data) return <div className="empty-state">No hay información adicional.</div>;
 
     // errors prop comes as { formacion: { 0: { programa: true }, ... } }
@@ -105,6 +129,37 @@ function AdditionalInfo({ data, onChange, errors = {} }) {
                                         onChange={(e) => handleFormacionChange(index, 'pais', e.target.value)}
                                         className={itemErrors.pais ? 'invalid' : ''}
                                     />
+                                </div>
+                                <div className="date-row">
+                                    <div className="form-group">
+                                        <label>Inicio</label>
+                                        <input
+                                            type="month"
+                                            value={getInputValue(item.periodo?.inicio)}
+                                            onChange={(e) => handleFormacionPeriodChange(index, 'inicio', e.target.value)}
+                                            className={itemErrors['periodo.inicio'] ? 'invalid' : ''}
+                                        />
+                                    </div>
+                                    <div className="form-group">
+                                        <label>Fin</label>
+                                        <div className="input-with-checkbox">
+                                            <input
+                                                type="month"
+                                                value={getInputValue(item.periodo?.fin)}
+                                                onChange={(e) => handleFormacionPeriodChange(index, 'fin', e.target.value)}
+                                                disabled={item.periodo?.fin === 'Actualidad'}
+                                                className={itemErrors['periodo.fin'] ? 'invalid' : ''}
+                                            />
+                                            <label className="checkbox-label">
+                                                <input
+                                                    type="checkbox"
+                                                    checked={item.periodo?.fin === 'Actualidad'}
+                                                    onChange={(e) => handleFormacionPeriodChange(index, 'fin', e.target.checked ? 'Actualidad' : '')}
+                                                />
+                                                Actualidad
+                                            </label>
+                                        </div>
+                                    </div>
                                 </div>
                                 <div className="form-group">
                                     <label>Tipo</label>

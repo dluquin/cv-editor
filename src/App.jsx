@@ -5,12 +5,15 @@ import BoardExperience from './components/BoardExperience';
 import International from './components/International';
 import Specialization from './components/Specialization';
 import AdditionalInfo from './components/AdditionalInfo';
+import Login from './components/Login';
+import { AuthProvider, useAuth } from './context/AuthContext';
 import { validateProfile, countErrors } from './utils/validation';
 
 // Load all JSON files from src directory
 const cvFiles = import.meta.glob('./*.json', { eager: true });
 
-function App() {
+function CVEditor() {
+    const { user, logout } = useAuth();
     const [profiles, setProfiles] = useState({});
     const [selectedProfile, setSelectedProfile] = useState('');
     const [data, setData] = useState(null);
@@ -91,6 +94,9 @@ function App() {
                             </svg>
                             Exportar JSON
                         </button>
+                        <button className="btn-secondary" onClick={logout}>
+                            Cerrar Sesión
+                        </button>
                     </div>
                 </div>
 
@@ -163,6 +169,26 @@ function App() {
             </main>
         </div>
     );
+}
+
+function App() {
+    return (
+        <AuthProvider>
+            <AppContent />
+        </AuthProvider>
+    );
+}
+
+function AppContent() {
+    const { user, loading } = useAuth();
+
+    if (loading) return <div className="loading">Cargando...</div>;
+
+    if (!user) {
+        return <Login />;
+    }
+
+    return <CVEditor />;
 }
 
 export default App;

@@ -76,6 +76,10 @@ export const validateProfile = (data) => {
         if (!edu.ciudad) eduErrors.ciudad = true;
         if (!edu.pais) eduErrors.pais = true;
 
+        const periodo = edu.periodo || {};
+        if (!periodo.inicio) eduErrors['periodo.inicio'] = true;
+        if (!periodo.fin && periodo.fin !== 'Actualidad') eduErrors['periodo.fin'] = true;
+
         if (Object.keys(eduErrors).length > 0) {
             if (!errors.additional.formacion) errors.additional.formacion = {};
             errors.additional.formacion[index] = eduErrors;

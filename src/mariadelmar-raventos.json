@@ -1,0 +1,377 @@
+{
+    "datos_personales": {
+        "nombre_completo": "María del Mar de Ros Raventós",
+        "email": "mderos@spanishimpulse.com",
+        "movil": "+34 687 863 409",
+        "ciudad": "Barcelona",
+        "pais": "España",
+        "linkedin": "",
+        "idiomas": [
+            {
+                "idioma": "Spanish",
+                "nivel": "Nativo"
+            },
+            {
+                "idioma": "Catalan",
+                "nivel": "Nativo"
+            },
+            {
+                "idioma": "English",
+                "nivel": "Fluido"
+            },
+            {
+                "idioma": "French",
+                "nivel": "Intermedio"
+            }
+        ]
+    },
+    "experiencia_profesional": [
+        {
+            "cargo": "Chief Growth Officer",
+            "empresa": "Navozyme",
+            "periodo": {
+                "inicio": "2024-06",
+                "fin": "Actualidad"
+            },
+            "sector": "Tecnología / Maritime Tech / Deep Tech",
+            "tipo_empresa": "scale-up",
+            "pais": "España",
+            "responsabilidades_clave": [
+                "Miembro del equipo ejecutivo reportando al CEO",
+                "Definición de visión, OKRs y estrategia de fundraising",
+                "Construcción y liderazgo de equipos cross-functional",
+                "Diseño y ejecución de estrategias de go-to-market",
+                "Coordinación con Producto, Tecnología y Customer Success para alinear crecimiento y roadmap"
+            ],
+            "logros_destacados": []
+        },
+        {
+            "cargo": "Co-founder & CEO",
+            "empresa": "Spanish Impulse",
+            "periodo": {
+                "inicio": "2016-05",
+                "fin": "Actualidad"
+            },
+            "sector": "Deporte / Industria marítima / Innovación",
+            "tipo_empresa": "startup",
+            "pais": "España",
+            "responsabilidades_clave": [
+                "Liderazgo estratégico, operativo y de crecimiento",
+                "Gestión de equipo, proyectos y logística internacional",
+                "Obtención de patrocinios y desarrollo de marca",
+                "Representación institucional y creación de oportunidades deportivas",
+                "Dirección de proyectos internacionales de alto rendimiento"
+            ],
+            "logros_destacados": [
+                "Participación en SailGP (2020–2023)",
+                "Participación en la America's Cup 2024",
+                "Lanzamiento división de vela de Nàstic Sports Academy (2024)"
+            ]
+        },
+        {
+            "cargo": "CEO",
+            "empresa": "Spain SailGP Team",
+            "periodo": {
+                "inicio": "2019-12",
+                "fin": "2023-02"
+            },
+            "sector": "Deporte profesional / Tecnología / Eventos globales",
+            "tipo_empresa": "equipo nacional",
+            "pais": "España",
+            "responsabilidades_clave": [
+                "Dirección del equipo español de SailGP",
+                "Gestión de partnerships institucionales y comerciales",
+                "Definición de estrategia y propósito del equipo",
+                "Relaciones con empresas IBEX 35 y family offices",
+                "Impulso de iniciativas como Impact League y Women Pathway"
+            ],
+            "logros_destacados": [
+                "Crecimiento de partnerships +3.5M€",
+                "Evento SailGP más exitoso en España (96.000 asistentes, impacto 56.9M$)",
+                "Creación de Foiling Academy para cantera juvenil"
+            ]
+        },
+        {
+            "cargo": "Director – Transformation Office: IT",
+            "empresa": "IESE Business School",
+            "periodo": {
+                "inicio": "2019-01",
+                "fin": "2019-12"
+            },
+            "sector": "Educación / Transformación digital",
+            "tipo_empresa": "universidad",
+            "pais": "España",
+            "responsabilidades_clave": [
+                "Impulso de iniciativas estratégicas de digitalización",
+                "Diseño de visión tecnológica del nuevo campus de Madrid",
+                "Desarrollo de proyectos de Smart Building"
+            ],
+            "logros_destacados": []
+        },
+        {
+            "cargo": "Associate Director Sales & Strategic Projects",
+            "empresa": "IESE Business School",
+            "periodo": {
+                "inicio": "2015-12",
+                "fin": "2019-12"
+            },
+            "sector": "Educación / Executive Education",
+            "tipo_empresa": "universidad",
+            "pais": "España",
+            "responsabilidades_clave": [
+                "Plan estratégico a 5 años",
+                "Mejora del performance comercial mediante análisis y dashboards",
+                "Implementación de Salesforce",
+                "Optimización tecnológica para operaciones comerciales",
+                "Rediseño de programas PDG y PDD",
+                "Liderazgo del proyecto de transformación ONE IESE"
+            ],
+            "logros_destacados": []
+        },
+        {
+            "cargo": "Associate Director Custom Programs",
+            "empresa": "IESE Business School",
+            "periodo": {
+                "inicio": "2011-12",
+                "fin": "2015-12"
+            },
+            "sector": "Educación / Corporate Learning",
+            "tipo_empresa": "universidad",
+            "pais": "España",
+            "responsabilidades_clave": [
+                "Diseño y entrega de programas a medida en liderazgo, estrategia, operaciones e IT",
+                "Colaboración con C-level de clientes globales",
+                "Co-creación de experiencias formativas en varios países (Barcelona, São Paulo, Shanghái, Tokio, Nueva York)"
+            ],
+            "logros_destacados": []
+        },
+        {
+            "cargo": "Senior Associate / Summer Associate",
+            "empresa": "McKinsey & Company",
+            "periodo": {
+                "inicio": "2008-06",
+                "fin": "2011-12"
+            },
+            "sector": "Consultoría estratégica",
+            "tipo_empresa": "consultora internacional",
+            "pais": "España",
+            "responsabilidades_clave": [
+                "Rediseño de procesos IT en telecomunicaciones",
+                "Diseño de corporate academy para talento ejecutivo",
+                "Liderazgo de programas comerciales de gran escala",
+                "Contribución al estudio Women Matter",
+                "Estrategia de riesgo para utilities",
+                "Análisis estratégico para sector gas"
+            ],
+            "logros_destacados": []
+        },
+        {
+            "cargo": "Analyst – M&A Consumer & Retail",
+            "empresa": "Morgan Stanley",
+            "periodo": {
+                "inicio": "2006-06",
+                "fin": "2007-09"
+            },
+            "sector": "Banca de inversión / M&A",
+            "tipo_empresa": "multinacional",
+            "pais": "Reino Unido",
+            "responsabilidades_clave": [
+                "Preparación de 30+ presentaciones estratégicas para clientes C-level",
+                "Asesoramiento en operaciones de inversión, fusiones y adquisiciones",
+                "Modelos financieros: LBO, IPO, valoraciones",
+                "Identificación de sinergias en targets de adquisición"
+            ],
+            "logros_destacados": [
+                "Apoyo en adquisición de 700M$ en el sector bebidas en Europa del Este",
+                "Modelización para operaciones hasta 900M€"
+            ]
+        }
+    ],
+    "experiencia_consejos": [
+        {
+            "cargo_en_consejo": "Miembro",
+            "tipo_de_consejo": "Consejo / Advisory Group",
+            "empresa": "Asociación de Marketing de España",
+            "periodo": {
+                "inicio": "2022-01",
+                "fin": "Actualidad"
+            },
+            "pais": "España",
+            "responsabilidades_clave": []
+        }
+    ],
+    "experiencia_comisiones": [],
+    "experiencia_internacional": [
+        {
+            "region": "Europa",
+            "paises": [
+                "España",
+                "Reino Unido",
+                "Francia",
+                "Dinamarca",
+                "Italia",
+                "Suiza"
+            ]
+        },
+        {
+            "region": "Norteamérica",
+            "paises": [
+                "Estados Unidos"
+            ]
+        },
+        {
+            "region": "Asia",
+            "paises": [
+                "Singapur"
+            ]
+        },
+        {
+            "region": "Oceanía",
+            "paises": [
+                "Nueva Zelanda",
+                "Australia"
+            ]
+        },
+        {
+            "region": "Latinoamérica",
+            "paises": [
+                "Chile"
+            ]
+        },
+        {
+            "region": "Oriente Medio",
+            "paises": [
+                "Emiratos Árabes Unidos"
+            ]
+        }
+    ],
+    "materias_especializacion": [
+        "growth strategy",
+        "go-to-market",
+        "transformación digital",
+        "estrategia comercial",
+        "deporte profesional y gestión de eventos",
+        "partnerships estratégicos",
+        "liderazgo y cultura organizativa",
+        "desarrollo de talento",
+        "operaciones internacionales",
+        "gobierno corporativo",
+        "management de equipos de alto rendimiento",
+        "industria marítima y sostenibilidad"
+    ],
+    "informacion_adicional": {
+        "publicaciones": [
+            "Iberostar: Wave of Change in the Organization (2019)",
+            "Spanish Impulse: Entrepreneurial Initiative in Sailing (2018)",
+            "Nokia: The Rebirth of the Phoenix (2017)",
+            "Intrapreneurship in Telefónica: Wayra (2013)"
+        ],
+        "conferencias": [
+            "EDEM Valencia (2024)",
+            "FITUR Madrid (2023)",
+            "WindEurope Bilbao (2022)",
+            "SPOUG Oracle Users Madrid (2022)",
+            "FBN / IESE Global Family Séjour (2016–2018)",
+            "FBN Summit Gran Canaria (2017)",
+            "Family Business Institute London (2016)"
+        ],
+        "premios": [],
+        "voluntariado": [],
+        "formacion": [
+            {
+                "programa": "Digital Execution Program",
+                "institucion": "IMD Business School",
+                "pais": "Suiza",
+                "ciudad": "Lausanne",
+                "tipo": "programa_ejecutivo",
+                "periodo": {
+                    "inicio": "2019-01",
+                    "fin": "2019-12"
+                }
+            },
+            {
+                "programa": "Big Data",
+                "institucion": "IESE Business School",
+                "pais": "España",
+                "ciudad": "Madrid",
+                "tipo": "programa_ejecutivo",
+                "periodo": {
+                    "inicio": "2019-01",
+                    "fin": "2019-12"
+                }
+            },
+            {
+                "programa": "De Directivo a Consejero",
+                "institucion": "Escuela de Consejeros (KPMG & IESE)",
+                "pais": "España",
+                "ciudad": "Barcelona",
+                "tipo": "programa_consejeros",
+                "periodo": {
+                    "inicio": "2018-01",
+                    "fin": "2018-12"
+                }
+            },
+            {
+                "programa": "Positive Leaders Program",
+                "institucion": "Michigan Ross & IESE",
+                "pais": "España",
+                "ciudad": "Barcelona",
+                "tipo": "programa_ejecutivo",
+                "periodo": {
+                    "inicio": "2017-01",
+                    "fin": "2017-12"
+                }
+            },
+            {
+                "programa": "MBA",
+                "institucion": "IESE Business School",
+                "pais": "España",
+                "ciudad": "Barcelona",
+                "tipo": "master",
+                "periodo": {
+                    "inicio": "2007-09",
+                    "fin": "2009-06"
+                }
+            },
+            {
+                "programa": "Exchange Program (Finance)",
+                "institucion": "Université de Genève",
+                "pais": "Suiza",
+                "ciudad": "Ginebra",
+                "tipo": "intercambio",
+                "periodo": {
+                    "inicio": "2004-09",
+                    "fin": "2005-06"
+                }
+            },
+            {
+                "programa": "Bachelor in Business Administration",
+                "institucion": "Universidad de Navarra",
+                "pais": "España",
+                "ciudad": "Pamplona",
+                "tipo": "grado",
+                "periodo": {
+                    "inicio": "2000-09",
+                    "fin": "2006-06"
+                }
+            },
+            {
+                "programa": "Bachelor of Law",
+                "institucion": "Universidad de Navarra",
+                "pais": "España",
+                "ciudad": "Pamplona",
+                "tipo": "grado",
+                "periodo": {
+                    "inicio": "2000-09",
+                    "fin": "2006-06"
+                }
+            }
+        ],
+        "otros": [
+            "Ski & Snowboarding – miembro del C.A.E.I",
+            "Pianista – Conservatorio Liceo",
+            "Vela: Laser, SailGP, Spanish Impulse",
+            "Campeona Navarra de Pádel (2001 & 2002)"
+        ]
+    }
+}
